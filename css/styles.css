@@ -1,4 +1,7 @@
 /* css/styles.css for dom.bauska.org */
+/** from 2ndbook */
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,900,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic,900italic|Rock+Salt:400);
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -70,6 +73,7 @@ p.em4 {
 background: linear-gradient(34deg, #5cc0fb 0%, transparent 48.18%, #83d8ff 56.429%, rgba(134,252,212,0.36) 100%);
 
 a {
+  font-size: 14.5px;
   text-decoration: none; 
 }
 a[href]:hover {
@@ -215,9 +219,6 @@ textarea {
   outline: none;
   resize: none;
 }
-
-/** from 2ndbook */
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,900,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic,900italic|Rock+Salt:400);
 
 *,
 :before,
