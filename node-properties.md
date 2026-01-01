@@ -725,3 +725,10 @@ alert(HTMLDocument.prototype.__proto__.__proto__.constructor.name); // Node
 
 <p>We also could examine the object using <mark>console.dir(document)</mark> and see 
 these names by opening <mark>__proto__</mark>. The console takes them from <mark>constructor</mark> internally.</p>
+
+<pre>
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("The DOM is fully loaded and parsed");
+  // Your code here
+});
+</pre>
