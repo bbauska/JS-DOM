@@ -1,6 +1,6 @@
 ---
 title: |
-  DOM Document Object Model
+  JS-DOM JavaScript Document Object Model
   by Brian Bauska, Systems/Database Admin
 author: "bbauska"
 date created: "05/12/25 Mon 12+pm"
